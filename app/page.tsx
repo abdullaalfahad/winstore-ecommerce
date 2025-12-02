@@ -1,5 +1,6 @@
 import BestDeals from '@/components/best-deals';
 import CategoryCarousel from '@/components/category-carousel';
+import Footer from '@/components/footer';
 import Header from '@/components/header';
 import HeroSection from '@/components/hero-section';
 import Navigation from '@/components/navigation';
@@ -14,6 +15,7 @@ export default function Home() {
       <CategoryCarousel />
       <NewArrivals />
       <BestDeals />
+      <Footer />
     </div>
   );
 }
