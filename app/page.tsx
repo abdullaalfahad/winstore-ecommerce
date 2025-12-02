@@ -1,3 +1,4 @@
+import BestDeals from '@/components/best-deals';
 import CategoryCarousel from '@/components/category-carousel';
 import Header from '@/components/header';
 import HeroSection from '@/components/hero-section';
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <CategoryCarousel />
       <NewArrivals />
+      <BestDeals />
     </div>
   );
 }
