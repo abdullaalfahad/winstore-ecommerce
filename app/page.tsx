@@ -2,6 +2,7 @@ import CategoryCarousel from '@/components/category-carousel';
 import Header from '@/components/header';
 import HeroSection from '@/components/hero-section';
 import Navigation from '@/components/navigation';
+import NewArrivals from '@/components/new-arrivals';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <CategoryCarousel />
+      <NewArrivals />
     </div>
   );
 }
