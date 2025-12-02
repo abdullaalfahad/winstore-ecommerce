@@ -1,3 +1,4 @@
+import CategoryCarousel from '@/components/category-carousel';
 import Header from '@/components/header';
 import HeroSection from '@/components/hero-section';
 import Navigation from '@/components/navigation';
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Navigation />
       <HeroSection />
+      <CategoryCarousel />
     </div>
   );
 }
